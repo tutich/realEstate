@@ -5,10 +5,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
 import Home from "../home/Home"
 import Footer from "../common/footer/Footer"
 import About from "../about/About"
-import Pricing from "../pricing/Pricing"
-import Blog from "../blog/Blog"
-import Services from "../services/Services"
-import Contact from "../contact/Contact"
+// import Pricing from "../pricing/Pricing"
+// import Blog from "../blog/Blog"
+// import Services from "../services/Services"
+// import Contact from "../contact/Contact"
 
 const Pages = () => {
   return (
@@ -16,8 +16,8 @@ const Pages = () => {
       <Router>
         <Header />
         <Routes>
-          <Route exact path='/' component={Home} />
-          <Route exact path='/about' component={About} />
+          <Route path='/' element={<Home />} />
+          <Route path='/about' element={<About />} />
           {/* <Route exact path='/services' component={Services} />
           <Route exact path='/blog' component={Blog} />
           <Route exact path='/pricing' component={Pricing} />
