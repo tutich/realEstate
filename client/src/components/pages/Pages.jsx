@@ -9,6 +9,8 @@ import Blog from "../blog/Blog"
 import Services from "../services/Services"
 import Pricing from "../pricing/Pricing"
 import Contact from "../contact/Contact"
+import SignUp from "../auth/SignUp"
+import SignIn from "../auth/SignIn"
 
 const Pages = () => {
   return (
@@ -22,6 +24,8 @@ const Pages = () => {
           <Route path='/services' element={<Services />} />
           <Route path='/pricing' element={<Pricing />} />
           <Route path='/contact' element={<Contact />} />
+          <Route path='/signup' element={<SignUp />}/>
+          <Route path='/signin' element={<SignIn/>}/>
         </Routes>
         <Footer />
       </Router>

@@ -133,7 +133,7 @@ export const awards = [
 export const location = [
   {
     id: 1,
-    name: "New Orleans, Louisiana",
+    name: "Kampala, Uganda",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
@@ -141,7 +141,7 @@ export const location = [
   },
   {
     id: 2,
-    name: "Jerrsy, United State",
+    name: "Jersey, United States",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
@@ -149,7 +149,7 @@ export const location = [
   },
   {
     id: 3,
-    name: "Liverpool, London",
+    name: "Southampton, UK",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
@@ -157,7 +157,7 @@ export const location = [
   },
   {
     id: 4,
-    name: "NewYork, United States",
+    name: "Paris, France",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",
@@ -165,7 +165,7 @@ export const location = [
   },
   {
     id: 5,
-    name: "Montreal, Canada",
+    name: "Nairobi, Kenya",
     Villas: "12 Villas",
     Apartments: " 10 Apartments",
     Offices: "07 Offices",

@@ -3,9 +3,18 @@ import React, { useState } from "react"
 import "./header.css"
 import { nav } from "../../data/Data"
 import { Link } from "react-router-dom"
+import {useNavigate} from 'react-router-dom';
 
 const Header = () => {
   const [navList, setNavList] = useState(false)
+  const [isSignedIn, setIsSignedIn] = useState(false);
+  const navigate = useNavigate()
+
+
+  const handleClickSubmit = (e) => {
+    e.preventDefault();
+    navigate('/signup');
+ };
 
   return (
     <>
@@ -27,7 +36,7 @@ const Header = () => {
             <h4>
               <span>2</span> My List
             </h4>
-            <button className='btn1'>
+            <button className='btn1' onClick={handleClickSubmit}>
               <i className='fa fa-sign-out'></i> Sign In
             </button>
           </div>
