@@ -189,7 +189,7 @@ img {
 
 @media screen and (max-width: 800px) {
   .grid4,
-  .grid3,
+  
   .grid5 {
     grid-template-columns: repeat(2, 1fr);
   }
